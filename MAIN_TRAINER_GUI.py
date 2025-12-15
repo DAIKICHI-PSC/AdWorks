@@ -1,0 +1,157 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'MAIN_TRAINER_GUI.ui'
+##
+## Created by: Qt User Interface Compiler version 6.5.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QComboBox, QGroupBox, QLineEdit,
+    QMainWindow, QMenuBar, QPlainTextEdit, QPushButton,
+    QSizePolicy, QStatusBar, QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(961, 622)
+        MainWindow.setMinimumSize(QSize(961, 622))
+        MainWindow.setMaximumSize(QSize(961, 622))
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.groupBox2 = QGroupBox(self.centralwidget)
+        self.groupBox2.setObjectName(u"groupBox2")
+        self.groupBox2.setGeometry(QRect(10, 100, 941, 151))
+        palette = QPalette()
+        self.groupBox2.setPalette(palette)
+        font = QFont()
+        font.setBold(True)
+        self.groupBox2.setFont(font)
+        self.groupBox2.setFlat(False)
+        self.groupBox2.setCheckable(False)
+        self.groupBox3 = QGroupBox(self.groupBox2)
+        self.groupBox3.setObjectName(u"groupBox3")
+        self.groupBox3.setGeometry(QRect(10, 20, 921, 61))
+        self.lineEdit1 = QLineEdit(self.groupBox3)
+        self.lineEdit1.setObjectName(u"lineEdit1")
+        self.lineEdit1.setEnabled(False)
+        self.lineEdit1.setGeometry(QRect(10, 20, 801, 20))
+        font1 = QFont()
+        font1.setBold(False)
+        self.lineEdit1.setFont(font1)
+        self.pushButton2 = QPushButton(self.groupBox3)
+        self.pushButton2.setObjectName(u"pushButton2")
+        self.pushButton2.setGeometry(QRect(820, 20, 93, 28))
+        self.pushButton2.setFont(font1)
+        self.pushButton2.setAutoDefault(False)
+        self.pushButton2.setFlat(False)
+        self.groupBox4 = QGroupBox(self.groupBox2)
+        self.groupBox4.setObjectName(u"groupBox4")
+        self.groupBox4.setGeometry(QRect(10, 90, 171, 51))
+        self.comboBox1 = QComboBox(self.groupBox4)
+        self.comboBox1.setObjectName(u"comboBox1")
+        self.comboBox1.setGeometry(QRect(10, 20, 151, 22))
+        self.groupBox5 = QGroupBox(self.groupBox2)
+        self.groupBox5.setObjectName(u"groupBox5")
+        self.groupBox5.setGeometry(QRect(190, 90, 171, 51))
+        self.lineEdit2 = QLineEdit(self.groupBox5)
+        self.lineEdit2.setObjectName(u"lineEdit2")
+        self.lineEdit2.setEnabled(True)
+        self.lineEdit2.setGeometry(QRect(10, 20, 151, 20))
+        self.lineEdit2.setFont(font1)
+        self.groupBox6 = QGroupBox(self.groupBox2)
+        self.groupBox6.setObjectName(u"groupBox6")
+        self.groupBox6.setGeometry(QRect(370, 90, 171, 51))
+        self.lineEdit3 = QLineEdit(self.groupBox6)
+        self.lineEdit3.setObjectName(u"lineEdit3")
+        self.lineEdit3.setEnabled(True)
+        self.lineEdit3.setGeometry(QRect(10, 20, 151, 20))
+        self.lineEdit3.setFont(font1)
+        self.groupBox7 = QGroupBox(self.groupBox2)
+        self.groupBox7.setObjectName(u"groupBox7")
+        self.groupBox7.setGeometry(QRect(550, 90, 181, 51))
+        self.lineEdit4 = QLineEdit(self.groupBox7)
+        self.lineEdit4.setObjectName(u"lineEdit4")
+        self.lineEdit4.setEnabled(True)
+        self.lineEdit4.setGeometry(QRect(10, 20, 161, 20))
+        self.lineEdit4.setFont(font1)
+        self.groupBox8 = QGroupBox(self.groupBox2)
+        self.groupBox8.setObjectName(u"groupBox8")
+        self.groupBox8.setGeometry(QRect(740, 90, 191, 51))
+        self.lineEdit5 = QLineEdit(self.groupBox8)
+        self.lineEdit5.setObjectName(u"lineEdit5")
+        self.lineEdit5.setEnabled(True)
+        self.lineEdit5.setGeometry(QRect(10, 20, 171, 20))
+        self.lineEdit5.setFont(font1)
+        self.groupBox1 = QGroupBox(self.centralwidget)
+        self.groupBox1.setObjectName(u"groupBox1")
+        self.groupBox1.setGeometry(QRect(10, 10, 211, 81))
+        palette1 = QPalette()
+        self.groupBox1.setPalette(palette1)
+        self.groupBox1.setFont(font)
+        self.pushButton1 = QPushButton(self.groupBox1)
+        self.pushButton1.setObjectName(u"pushButton1")
+        self.pushButton1.setEnabled(True)
+        self.pushButton1.setGeometry(QRect(10, 30, 93, 31))
+        self.pushButton1.setFont(font)
+        self.pushButton3 = QPushButton(self.groupBox1)
+        self.pushButton3.setObjectName(u"pushButton3")
+        self.pushButton3.setEnabled(True)
+        self.pushButton3.setGeometry(QRect(110, 30, 93, 31))
+        self.pushButton3.setFont(font)
+        self.plainTextEdit1 = QPlainTextEdit(self.centralwidget)
+        self.plainTextEdit1.setObjectName(u"plainTextEdit1")
+        self.plainTextEdit1.setGeometry(QRect(10, 260, 941, 311))
+        font2 = QFont()
+        font2.setPointSize(12)
+        self.plainTextEdit1.setFont(font2)
+        self.plainTextEdit1.setLineWrapMode(QPlainTextEdit.NoWrap)
+        self.plainTextEdit1.setReadOnly(True)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 961, 22))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        self.pushButton2.setDefault(False)
+        self.pushButton1.setDefault(False)
+        self.pushButton3.setDefault(False)
+
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"cflow-ad GUI", None))
+        self.groupBox2.setTitle(QCoreApplication.translate("MainWindow", u"SETTINGS", None))
+        self.groupBox3.setTitle(QCoreApplication.translate("MainWindow", u"PICTURE FOLDER", None))
+        self.pushButton2.setText(QCoreApplication.translate("MainWindow", u"OPEN", None))
+        self.groupBox4.setTitle(QCoreApplication.translate("MainWindow", u"TRAINING SIZE", None))
+        self.groupBox5.setTitle(QCoreApplication.translate("MainWindow", u"META EPOCHS", None))
+        self.lineEdit2.setText(QCoreApplication.translate("MainWindow", u"25", None))
+        self.groupBox6.setTitle(QCoreApplication.translate("MainWindow", u"SUB EPOCHS", None))
+        self.lineEdit3.setText(QCoreApplication.translate("MainWindow", u"4", None))
+        self.groupBox7.setTitle(QCoreApplication.translate("MainWindow", u"LEARNING RATE", None))
+        self.lineEdit4.setText(QCoreApplication.translate("MainWindow", u"0.0002", None))
+        self.groupBox8.setTitle(QCoreApplication.translate("MainWindow", u"ROTATION ANGLE", None))
+        self.lineEdit5.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.groupBox1.setTitle(QCoreApplication.translate("MainWindow", u"EXCUTE", None))
+        self.pushButton1.setText(QCoreApplication.translate("MainWindow", u"START", None))
+        self.pushButton3.setText(QCoreApplication.translate("MainWindow", u"RENUMBER", None))
+        self.plainTextEdit1.setPlainText("")
+    # retranslateUi
+
