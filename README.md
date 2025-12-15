@@ -1,7 +1,5 @@
 # AdWorks
-  
----
-  
+
 OK
 <img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/cd09b609-92a6-4570-aab4-ac3694e436ad" />
 NG
