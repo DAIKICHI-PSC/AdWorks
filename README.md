@@ -1,4 +1,11 @@
 # AdWorks
+---
+OK
+<img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/cd09b609-92a6-4570-aab4-ac3694e436ad" />
+NG
+<img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/c71707bc-e7a1-48db-9abf-08bd22708ec6" />
+---
+  
 REAL TIME ANOMALY DETECTION SYSTEM WITH GUI  
   
 This is a system that performs visual inspection using AI.  
