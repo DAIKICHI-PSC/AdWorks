@@ -60,7 +60,7 @@ Developer of GUI module
 The Qt Company  
 https://www.qt.io/ja-jp/  
   
-Developer of cflow-ad for Python  
+Developer great anomaly detection program, cflow-ad  
 Denis Gudovskiy and the community  
 https://github.com/gudovskiy  
   
