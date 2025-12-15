@@ -62,7 +62,7 @@ https://github.com/scikit-image
 
 ---
 
-@inproceedings{Gudovskiy_2022_WACV,  
+@inproceedings{Gudovskiy_2022_WACV,
     author    = {Gudovskiy, Denis and Ishizaka, Shun and Kozuka, Kazuki},  
     title     = {{CFLOW-AD}: Real-Time Unsupervised Anomaly Detection With Localization via Conditional Normalizing Flows},  
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},  
