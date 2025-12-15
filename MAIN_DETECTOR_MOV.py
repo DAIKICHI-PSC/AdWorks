@@ -157,8 +157,11 @@ def DETECTION_START():
 
 
     CAP.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0) #カメラによる露出制御のON／OFF 0 = Manual Mode, 1= Auto Mode
+    print("cv2.CAP_PROP_AUTO_EXPOSURE")
     print(CAP.get(cv2.CAP_PROP_AUTO_EXPOSURE))
+    print("")
     CAP.set(cv2.CAP_PROP_EXPOSURE, -2) #露出
+    print("cv2.CAP_PROP_AUTO_EXPOSURE")
     print(CAP.get(cv2.CAP_PROP_EXPOSURE))
     #CAP.set(cv2.CAP_PROP_GAIN, 144)  # ゲイン値を0に設定
     #print(CAP.get(cv2.CAP_PROP_GAIN))
@@ -393,7 +396,6 @@ def MAIN_LOOP():
     global DETETED_PICTURE
     while(True):
         ret, frame = CAP.read()
-        frame = cv2.edgePreservingFilter(frame, cv2.NORMCONV_FILTER)
         if ret == True and DETECTION_STARTED == 1:
             frameB = np.copy(frame)
             if DETECTION_STARTED == 1:

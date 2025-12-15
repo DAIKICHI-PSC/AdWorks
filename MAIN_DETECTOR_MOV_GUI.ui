@@ -44,6 +44,7 @@
     </property>
     <property name="font">
      <font>
+      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -85,6 +86,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -137,6 +139,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>75</weight>
         <bold>true</bold>
         <underline>false</underline>
        </font>
@@ -175,6 +178,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -209,6 +213,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -243,6 +248,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -293,6 +299,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -419,6 +426,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>75</weight>
         <bold>true</bold>
         <underline>false</underline>
        </font>
@@ -462,7 +470,7 @@
       <rect>
        <x>390</x>
        <y>150</y>
-       <width>141</width>
+       <width>131</width>
        <height>61</height>
       </rect>
      </property>
@@ -474,7 +482,7 @@
        <rect>
         <x>10</x>
         <y>20</y>
-        <width>121</width>
+        <width>111</width>
         <height>21</height>
        </rect>
       </property>
@@ -483,9 +491,9 @@
     <widget class="QGroupBox" name="groupBox15">
      <property name="geometry">
       <rect>
-       <x>540</x>
+       <x>530</x>
        <y>150</y>
-       <width>141</width>
+       <width>131</width>
        <height>61</height>
       </rect>
      </property>
@@ -497,7 +505,7 @@
        <rect>
         <x>10</x>
         <y>20</y>
-        <width>121</width>
+        <width>111</width>
         <height>21</height>
        </rect>
       </property>
@@ -506,9 +514,9 @@
     <widget class="QGroupBox" name="groupBox6_2">
      <property name="geometry">
       <rect>
-       <x>690</x>
+       <x>670</x>
        <y>150</y>
-       <width>141</width>
+       <width>131</width>
        <height>61</height>
       </rect>
      </property>
@@ -520,7 +528,7 @@
        <rect>
         <x>10</x>
         <y>20</y>
-        <width>121</width>
+        <width>111</width>
         <height>21</height>
        </rect>
       </property>
@@ -532,9 +540,9 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>840</x>
+       <x>812</x>
        <y>150</y>
-       <width>93</width>
+       <width>121</width>
        <height>31</height>
       </rect>
      </property>
@@ -577,6 +585,7 @@
      </property>
      <property name="font">
       <font>
+       <weight>75</weight>
        <bold>true</bold>
        <underline>false</underline>
       </font>
@@ -594,9 +603,9 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>840</x>
+       <x>812</x>
        <y>180</y>
-       <width>93</width>
+       <width>121</width>
        <height>31</height>
       </rect>
      </property>
@@ -639,6 +648,7 @@
      </property>
      <property name="font">
       <font>
+       <weight>75</weight>
        <bold>true</bold>
        <underline>false</underline>
       </font>
@@ -669,6 +679,7 @@
     </property>
     <property name="font">
      <font>
+      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -729,6 +740,7 @@
      </property>
      <property name="font">
       <font>
+       <weight>75</weight>
        <bold>true</bold>
        <underline>false</underline>
       </font>
@@ -754,6 +766,7 @@
      </property>
      <property name="font">
       <font>
+       <weight>75</weight>
        <bold>true</bold>
       </font>
      </property>
@@ -816,6 +829,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -850,6 +864,7 @@
       </property>
       <property name="font">
        <font>
+        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -909,6 +924,7 @@
      </property>
      <property name="font">
       <font>
+       <weight>75</weight>
        <bold>true</bold>
        <underline>false</underline>
       </font>
@@ -963,6 +979,7 @@
     </property>
     <property name="font">
      <font>
+      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -1017,6 +1034,7 @@
      </property>
      <property name="font">
       <font>
+       <weight>75</weight>
        <bold>true</bold>
        <underline>false</underline>
       </font>
@@ -1042,6 +1060,7 @@
      </property>
      <property name="font">
       <font>
+       <weight>75</weight>
        <bold>true</bold>
       </font>
      </property>
@@ -1100,6 +1119,7 @@
      </property>
      <property name="font">
       <font>
+       <weight>75</weight>
        <bold>true</bold>
        <underline>false</underline>
       </font>
@@ -1119,7 +1139,7 @@
      <x>0</x>
      <y>0</y>
      <width>961</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
