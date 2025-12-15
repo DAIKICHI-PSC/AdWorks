@@ -17,7 +17,7 @@ Please refer to readme_en.txt for details.
   
 ---
   
-GUIによるリアルタイム異常検知システム  
+GUIで運用出来るリアルタイム異常検知システム  
   
 AIで外観検査を行うシステムです。  
 cflow-adのリアルタイム版となります（正常画像のみで学習します）。  
